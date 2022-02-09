@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main(void) 
+{
+  int i;
+  for (i = 0, i < 10000 ; i ++) {
+    printf("Coucouc %d\n", i);
+  }
+  return (0);
+}
